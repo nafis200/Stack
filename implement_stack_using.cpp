@@ -3,7 +3,7 @@ using namespace std;
 
 class Mystack{
     public:
-    vector<int>v;
+    list<int>v;
 
     void push(int val){
         v.push_back(val);
